@@ -1,6 +1,6 @@
 {
   "name": "set-js-object",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create a JS Object (object literal) by given a key and a value",
   "main": "index.js",
   "scripts": {
