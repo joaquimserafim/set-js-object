@@ -4,8 +4,8 @@ module.exports = setJsObject;
 
 function setJsObject(key, value) {
   if (key) {
-    var o = {};
-    o[key] = value;
-    return o;
+    var newObject = {};
+    newObject[key] = value;
+    return newObject;
   }
 }
