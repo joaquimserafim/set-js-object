@@ -1,7 +1,7 @@
 {
   "name": "set-js-object",
-  "version": "0.0.0",
-  "description": "JS Object",
+  "version": "1.0.0",
+  "description": "Create a JS Object (object literal) by given a key and a value",
   "main": "index.js",
   "scripts": {
     "test": "lab -v -c test.js",
@@ -23,6 +23,7 @@
     "key",
     "value",
     "object",
+    "literal",
     "js",
     "util",
     "utilities",

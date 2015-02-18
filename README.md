@@ -1,21 +1,26 @@
 # set-js-object
 
-Create a JS Object by given a key and a value 
+Create a JS Object (object literal) by given a key and a value
 
 <a href="https://nodei.co/npm/set-js-object/"><img src="https://nodei.co/npm/set-js-object.png?downloads=true"></a>
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square)](https://travis-ci.org/joaquimserafim/set-js-object)![Code Coverage 100%](https://img.shields.io/badge/code%20coverage-100%25-green.svg?style=flat-square)[![ISC License](https://img.shields.io/badge/license-ISC-blue.svg?style=flat-square)](https://github.com/joaquimserafim/set-js-object/blob/master/LICENSE)
 
 ## API
+>var setObject = require('set-js-object')
 
+>setObject(*key:string*, *value*)
 
-### Return
-
+#### Return
+*   a **js object**
+*   **undefined** if the key is undefined
 
 ## Usage
 
 ``` js
-
+var setObject = require('set-js-object');
+var obj = setObject('key', {a: 1});
+// obj = {key: {a: 1}}
 ```
 
 ## Development
