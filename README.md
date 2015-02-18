@@ -19,8 +19,12 @@ Create a JS Object (object literal) by given a key and a value
 
 ``` js
 var setObject = require('set-js-object');
+
 var obj = setObject('key', {a: 1});
 // obj = {key: {a: 1}}
+
+var singleObj = setObject('fruit', 'berry');
+// singleObj = {fruit: berry}
 ```
 
 ## Development
